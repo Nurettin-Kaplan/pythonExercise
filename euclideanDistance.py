@@ -1,6 +1,6 @@
 import math
 def euclideanDistance(point1, point2):
-    distance = ((point1[0] - point2[0]) ** 2) + ((point2[1] - point2[1]) ** 2)
+    distance = ((point1[0] - point2[0]) ** 2) + ((point1[1] - point2[1]) ** 2)
     return math.sqrt(distance)
 
 points = [(1,2), (8,9), (4,5), (10,7)]
